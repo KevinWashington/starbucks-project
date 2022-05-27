@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-top: 10px solid #117050;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #454545;
+    border: 2px solid #454545;
+    border-radius: 3px
+}
+
+
+.header--area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header--left img{
+    width: 64px;
+    height: 64px;
+}
+
+.header--right{
+    display: flex;
+    align-items: center;
+}
+
+.header--search form{
+    display: flex;
+}
+
+.header--search input{
+    font-size: 16px;
+    padding: 10px 13px;
+    border: 1px solid #999;
+    outline: none;
+    min-width: 240px;
+    max-width: 250px;
+}
+
+.header--search button{
+    border: 0;
+    background: transparent;
+    margin-left: -32px;
+    cursor: pointer;
+}
+
+.header--search button img{
+    width: 16px;
+    height: 16px;
+}
+
+.header--menu{
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.header--menu img{
+    width: 24px;
+    height: 24px;
+}
+
+.banner{
+    height: calc(100vh - 110px);
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1{ 
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 1.1;
+    margin: 0;
+    padding: 94px  0px 0px 23px;
+}
+
+.banner span{
+    display: block;
+    margin-top: 39px;
+    margin-left: 23px;
+}
+
+.banner--images{
+    margin-left: 20px;
+    margin-top: 48px;
+}
+
+.banner--images img{
+    width: 160px;
+    height: 160px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin: 18px 36px 18px 0px;
+}
+
+.area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1--img1{
+    background-image: url("../images/f2.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 347px;
+}
+
+.area1--img2{
+    background-image: url("../images/f1.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.line{
+    height: 22px;
+    width: 170px;
+    background-color: #117050;
+}
+
+.area1--content--container{
+    max-width: 450px;
+    margin: 55px auto;
+}
+
+.area-content--title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-top: 11px;
+}
+
+.area-content--cite{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.area-content--text{
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.area--content a{
+    display: inline-block;
+    margin-top: 55px;
+}
+
+.area2--content--container{
+    max-width: 450px;
+    margin: 85px auto;
+}
+
+.area2--img1{
+    background-image: url("../images/f4.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 347px;
+}
+
+.area2--img2{
+    background-image: url("../images/f3.jpg");
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.area3{
+    background-image: url("../images/bg2.jpg");
+    background-position: left;
+    background-size: cover;
+}
+
+.area3--content--container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 450px;
+    min-height: 95vh;
+    margin: auto;
+}
+
+.area3--img1{
+    background-image: url("../images/f5.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 347px;
+}
+
+.area4{
+    height: 95vh;
+    background-color: #e8e9ee;
+    background-image: url("../images/bg3.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.area4 .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.area4--content--container{
+    max-width: 320px;
+}
+
+.area5{
+    height: 65vh;
+    background-image: url("../images/bg4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    height: 240px;
+    font-size: 14px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    color: #a8f8dd;
+}
